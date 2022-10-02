@@ -29,9 +29,9 @@
 
     <div class="formContent">
 
-        <form class="userForm">
+        <form class="userForm" id="empForm" method="get" action="./home.html">
 
-            <div class="formHeaderTitle"> Employee Payroll Form </div>
+            <div class="formHeaderTitle" onclick="getData()"> Employee Payroll Form </div>
 
             <div class="formInput">
                 <label for="userName">Name</label>
@@ -47,22 +47,22 @@
                 <label for="profile">Profile</label>
                 <div class="formRadioContent">
                     <span>
-                        <input type="radio" name="profile" id="profile1" value="profile1" required />
+                        <input type="radio" name="profile" id="profile1" value="../assets/profile-images/Ellipse -1.png" required />
                         <img class="profileImg" src="../assets/profile-images/Ellipse -1.png" />
                     </span>
                     <margin></margin>
                     <span>
-                        <input type="radio" name="profile" id="profile2" value="profile2" required />
+                        <input type="radio" name="profile" id="profile2" value="../assets/profile-images/Ellipse -2.png" required />
                         <img class="profileImg" src="../assets/profile-images/Ellipse -2.png" />
                     </span>
                     <margin></margin>
                     <span>
-                        <input type="radio" name="profile" id="profile3" value="profile3" required />
+                        <input type="radio" name="profile" id="profile3" value="../assets/profile-images/Ellipse -3.png" required />
                         <img class="profileImg" src="../assets/profile-images/Ellipse -3.png" />
                     </span>
                     <margin></margin>
                     <span>
-                        <input type="radio" name="profile" id="profile4" value="profile4" required />
+                        <input type="radio" name="profile" id="profile4" value="../assets/profile-images/Ellipse -4.png" required />
                         <img class="profileImg" src="../assets/profile-images/Ellipse -4.png" />
                     </span>
                 </div>
@@ -86,27 +86,27 @@
                 <label for="department">Department</label>
                 <div class="formCheckboxContent">
                     <span>
-                        <input type="checkbox" name="department" id="hrd" value="HR" required />
+                        <input type="checkbox" name="department" id="hrd" value="HR" />
                         <label>HR</label>
                     </span>
                     <margin></margin>
                     <span>
-                        <input type="checkbox" name="department" id="sales" value="Sales" required />
+                        <input type="checkbox" name="department" id="sales" value="Sales" />
                         <label>Sales</label>
                     </span>
                     <margin></margin>
                     <span>
-                        <input type="checkbox" name="department" id="finance" value="Fianance" required />
+                        <input type="checkbox" name="department" id="finance" value="Fianance" />
                         <label>Finance</label>
                     </span>
                     <margin></margin>
                     <span>
-                        <input type="checkbox" name="department" id="engineer" value="Engineer" required />
+                        <input type="checkbox" name="department" id="engineer" value="Engineer" />
                         <label>Engineer</label>
                     </span>
                     <margin></margin>
                     <span>
-                        <input type="checkbox" name="department" id="other" value="Other" required />
+                        <input type="checkbox" name="department" id="other" value="Other" />
                         <label>Other</label>
                     </span>
                 </div>
