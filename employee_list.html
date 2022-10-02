@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title> Employee Payroll </title>
+
+    <link rel="short icon" href="/assets/images/logo.png" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" />
+</head>
+
+<body>
+
+    <header>
+
+        <img class="headerLogo" src="/assets/images/logo.png" />
+
+        <div class="headerTitle">
+            <span class="header1">EMPLOYEE</span><br /><span class="header2">PAYROLL</span>
+        </div>
+
+    </header>
+
+    <div class="formContent">
+
+        <form class="userForm">
+
+            <div class="formHeaderTitle"> Employee Payroll Form </div>
+
+            <div class="formInput">
+                <label for="userName">Name</label>
+                <input type="text" name="userName" id="userName" placeholder="Type your Name" required />
+            </div>
+
+            <div class="formInput">
+                <label for="profile">Profile</label>
+                <div class="formRadioContent">
+                    <span>
+                        <input type="radio" name="profile" id="profile1" value="profile1" required />
+                        <img class="profileImg" src="/assets/profile-images/Ellipse -1.png" />
+                    </span>
+                    <margin></margin>
+                    <span>
+                        <input type="radio" name="profile" id="profile2" value="profile2" required />
+                        <img class="profileImg" src="/assets/profile-images/Ellipse -2.png" />
+                    </span>
+                    <margin></margin>
+                    <span>
+                        <input type="radio" name="profile" id="profile3" value="profile3" required />
+                        <img class="profileImg" src="/assets/profile-images/Ellipse -3.png" />
+                    </span>
+                    <margin></margin>
+                    <span>
+                        <input type="radio" name="profile" id="profile4" value="profile4" required />
+                        <img class="profileImg" src="/assets/profile-images/Ellipse -4.png" />
+                    </span>
+                </div>
+            </div>
+            <div class="formInput">
+                <label for="gender">Gender</label>
+                <div class="formRadioContent">
+                    <span>
+                        <input type="radio" name="gender" id="genderM" value="Male" required />
+                        <label>MALE</label>
+                    </span>
+                    <margin></margin>
+                    <span>
+                        <input type="radio" name="gender" id="genderF" value="Female" required />
+                        <label>FEMALE</label>
+                    </span>
+                </div>
+            </div>
+
+            <div class="formInput">
+                <label for="department">Department</label>
+                <div class="formCheckboxContent">
+                    <span>
+                        <input type="checkbox" name="department" id="hrd" value="HR" required />
+                        <label>HR</label>
+                    </span>
+                    <margin></margin>
+                    <span>
+                        <input type="checkbox" name="department" id="sales" value="Sales" required />
+                        <label>Sales</label>
+                    </span>
+                    <margin></margin>
+                    <span>
+                        <input type="checkbox" name="department" id="finance" value="Fianance" required />
+                        <label>Finance</label>
+                    </span>
+                    <margin></margin>
+                    <span>
+                        <input type="checkbox" name="department" id="engineer" value="Engineer" required />
+                        <label>Engineer</label>
+                    </span>
+                    <margin></margin>
+                    <span>
+                        <input type="checkbox" name="department" id="other" value="Other" required />
+                        <label>Other</label>
+                    </span>
+                </div>
+            </div>
+
+            <div class="formInput">
+                <label for="salary">Salary</label>
+                <div class="salaryContent">
+                        <input type="range" name="salary" id="salary" value="300000"
+                        min="200000" max="1000000" required />
+                        <output>300000</output>
+                </div>
+            </div>
+
+            <div class="formInput">
+                <label for="startDate">Start date</label>
+                <div class="startDateContent">
+                        <select>
+                            <option>-DD-</option>
+                        </select>
+                        
+                        <select>
+                            <option>-MM-</option>
+                        </select>
+
+                        <select>
+                            <option>-YYYY-</option>
+                        </select>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
